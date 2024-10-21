@@ -10,7 +10,7 @@ const cart = [];
 
 const addItemToCart = (itemIndex) => {
   if (itemInStock[itemIndex]) {
-    cart.push(itemIndex); // Store the index of the item in the cart
+    cart.push(itemIndex); 
     console.log(`${itemNames[itemIndex]} added to the cart`);
   } else {
     console.log(`${itemNames[itemIndex]} is out of stock`);
