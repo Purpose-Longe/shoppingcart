@@ -3,7 +3,7 @@ const itemPrices = [1000, 500];
 const itemQuantities = [1, 2];
 const itemInStock = [true, true];
 
-
+// this is cool
 const ShoppingCart = () => {
 
 const cart = [];
