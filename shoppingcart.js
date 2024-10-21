@@ -17,7 +17,7 @@ const addItemToCart = (itemIndex) => {
   }
 };
 
-  const removeItemFromCart = (itemIndex) => { //TO REMOVE ITEMS FROM CART
+  const removeItemFromCart = (itemIndex) => { 
     const index = cart.indexOf(itemIndex);
     if (index > -1) {
       cart.splice(index, 1);
